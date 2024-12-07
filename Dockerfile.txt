@@ -1,0 +1,3 @@
+FROM amazoncorretto:11
+COPY DockerExmaple.java /tmp
+ENTRYPOINT java /tmp/DockerExmaple.java
